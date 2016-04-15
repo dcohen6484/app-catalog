@@ -1,18 +1,10 @@
-Find Results
-.DS_Store
-node_modules/
-lib/
-gen/
-*.iml
-*.ipr
-*.iws
-/bin
-build/
-target/
-.grunt/
+# Ignore login credentials
+deploy.json
+# Ignore debug build version of App
+App-debug.html
+# Ignore 'local' build version of App
+App-local.html
+#IDE Files
 .idea
-_SpecRunner*.html
-appcatalog.version
-*.sublime-workspace
-temp/
-tmp/
+.c9revisions
+node_modules
